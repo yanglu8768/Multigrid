@@ -23,14 +23,14 @@ sklearn
 (1) Copy the training data into ./data/dataset_name
 (2) Change the input parameter in the main.py at line 9.
 
-'''
+```
 flags.DEFINE_string('dataset_name', 'new', 'Folder name which stored in ./data/dataset_name')
-'''
+```
 
 (3) Run the code
-'''
+```
 python main.py
-'''
+```
 
 
 
